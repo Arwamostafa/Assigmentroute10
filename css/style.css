@@ -20,12 +20,14 @@ font-family:  'Pacifico', cursive;
 .wel{
     font-family:'Pacifico', cursive; 
     font-size: 50px;
-    /* position: relative;
-    top: 50%; */
+   color: rgb(224, 229, 242);
 }
-/* .form-control{
-    background-color: #fcfcfc63;
-} */
+.welcomecontainer{
+    margin-top:200px ;
+    border-radius: 20px;
+    background-color: #61a6d1;
+    box-shadow:3px 6px 10px #969696;
+}
 .navbar{
     background-color:#24353f ;
     box-shadow:4px 7px 18px #000000;

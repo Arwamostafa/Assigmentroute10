@@ -72,8 +72,8 @@ signIn?.addEventListener("click", function(){
 })
 
 if(localStorage.getItem("currnnntuser")!==null){
-     document.getElementById("welcome").innerHTML= 'welcome  '  
-    //  + JSON.parse(localStorage.getItem("curruser"))
+     document.getElementById("welcome").innerHTML= 'welcome  ' + localStorage.getItem("currnnntuser")
+    
 
 }
 
@@ -98,7 +98,7 @@ var emailvalidation=/^[a-zA-Z0-9.!#$%&'*+=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0
 
 
 logOut?.addEventListener("click",()=>{
-    window.location.replace("login.html")
+    window.location.replace("index.html")
 })
 
 
