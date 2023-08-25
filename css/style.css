@@ -20,13 +20,13 @@ font-family:  'Pacifico', cursive;
 .wel{
     font-family:'Pacifico', cursive; 
     font-size: 50px;
-   color: rgb(224, 229, 242);
+   color: rgb(252, 253, 255);
 }
 .welcomecontainer{
     margin-top:200px ;
     border-radius: 20px;
-    background-color: #61a6d1;
-    box-shadow:3px 6px 10px #969696;
+    background-color: #7ca1cf;
+    box-shadow:3px 6px 10px #878686;
 }
 .navbar{
     background-color:#24353f ;
